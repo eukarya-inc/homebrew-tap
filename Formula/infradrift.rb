@@ -6,22 +6,22 @@ class Infradrift < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/eukarya-inc/infradrift/releases/download/v0.2.0/infradrift-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "81be0ba0b340a90731c0b94213099bfec7ba49e6459e3e0c1cace0215cbfe9cb"
+      sha256 "9d7c1bd0d5deb16832d6ea3f702e4f0b03def9070b7283869a9a076894aafab7"
     end
     if Hardware::CPU.arm?
       url "https://github.com/eukarya-inc/infradrift/releases/download/v0.2.0/infradrift-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a2ca25eeb88fa25e1bbd3865f26956766760102661510e392036556832bb80e1"
+      sha256 "d4fbb38c12f78bd7414f5ecbe0f0dde427efcf5e1a9b44799b2b3bcfee86c6c9"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/eukarya-inc/infradrift/releases/download/v0.2.0/infradrift-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e9b585fd1d9225878826882535ed06d73091024bb2d3dea63146433b841770bc"
+      sha256 "03d183deacada53a6160248fdfd72cd38f7c63c730db628cf4dae94f944a4f82"
     end
     if Hardware::CPU.arm?
       url "https://github.com/eukarya-inc/infradrift/releases/download/v0.2.0/infradrift-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bd578239406a54631fc78629c212b461f24a9c17a12642cd30df6162984aa84e"
+      sha256 "1034b19fcb0bab7ea0c99c6356dfe4c2b1e2041301190dfabd1d681ad3ec9924"
     end
   end
 
