@@ -5,23 +5,23 @@ class GitCascade < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.2.0/git-cascade-v0.2.0-darwin-amd64.tar.gz"
-      sha256 "791352578f31432a615ab727a2ac13a401af27cbd631bb38d41d0b9346d78c35"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.0/git-cascade-v0.3.0-darwin-amd64.tar.gz"
+      sha256 "e4962eac2421ee1e9790fcf2aa7c478b87c8ef49903c5a62297e1f6379529e28"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.2.0/git-cascade-v0.2.0-darwin-arm64.tar.gz"
-      sha256 "aca8cf6b77da19663df1e49e0234e4aeca167bfd0f9d632ce5c8260a96c4cb7a"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.0/git-cascade-v0.3.0-darwin-arm64.tar.gz"
+      sha256 "9811e0c60986f4e455d489a69a6d5b533d24f63fdfcd1307dbe4fc63a5c141ff"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.2.0/git-cascade-v0.2.0-linux-amd64.tar.gz"
-      sha256 "721f36ee0f3495fc14863e111b0645e476b71709906798ada6f1d4ee7d05f976"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.0/git-cascade-v0.3.0-linux-amd64.tar.gz"
+      sha256 "c37466360fda09417fa65f701a63269e896e78f2b1106f0ef8fcc45041404f03"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.2.0/git-cascade-v0.2.0-linux-arm64.tar.gz"
-      sha256 "300bfcc6c967a0f5377398b40986c2aac6ec0b5754f0c385a21baa05099854cc"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.0/git-cascade-v0.3.0-linux-arm64.tar.gz"
+      sha256 "d8342942b73a23a7532161f34dfcadf6b8152258bf5e606f6d44a47d3a834800"
     end
   end
 
