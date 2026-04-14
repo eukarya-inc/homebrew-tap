@@ -1,27 +1,28 @@
 class GitCascade < Formula
   desc "Scan GitHub organization repositories for compliance against YAML-defined rules"
   homepage "https://github.com/eukarya-inc/git-cascade"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.1/git-cascade-v0.3.1-darwin-amd64.tar.gz"
-      sha256 "954fd468076224c6c6c321397d90005be8475504c81ca4b93b8a253a1c3dfb4f"
+      sha256 "26bfb11c11725b128dd5b6425d883569ddfb7a3a5b985364799fccaa56c6f770"
     end
     if Hardware::CPU.arm?
       url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.1/git-cascade-v0.3.1-darwin-arm64.tar.gz"
-      sha256 "bc00e43ec36c636e85ef6c9d9bb6419f9b4981979c50b17ae4cf5031c597a89d"
+      sha256 "ab1e27eadc253751bbc32b0ea5abf5dd091e8cce86e18c1c0f41540e2d1248b9"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.1/git-cascade-v0.3.1-linux-amd64.tar.gz"
-      sha256 "fac02b76916148f28afb6e31c0f5ac092a82fdb94e8a24dba0309f4de197218a"
+      sha256 "3acc3dfe388ef298d3751c7e3547f2beaa1513c4c89ec67fb0a4f8abbc0da871"
     end
     if Hardware::CPU.arm?
       url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.3.1/git-cascade-v0.3.1-linux-arm64.tar.gz"
-      sha256 "b2ec7c44d55cbc58ef63c767580efaa74b3c2fc2936e3e8e4c1f50b6c05a679b"
+      sha256 "23f9a1abd408c98273306a3c1fe9ec278cc0c233066c1e4e4081a0be368c0373"
     end
   end
 
