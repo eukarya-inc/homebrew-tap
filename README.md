@@ -24,10 +24,10 @@ brew update && brew upgrade
 
 ## Available Formulas
 
-| Formula | Description | Version |
-|---------|-------------|---------|
-| [infradrift](https://github.com/eukarya-inc/infradrift) | Detect infrastructure drift from Terraform/OpenTofu plans | v0.2.0 |
-| [git-cascade](https://github.com/eukarya-inc/git-cascade) | Hierarchical compliance checker for GitHub Organizations. | v0.2.0 |
+| Formula | Description |
+|---------|-------------|
+| [infradrift](https://github.com/eukarya-inc/infradrift) | Detect infrastructure drift from Terraform/OpenTofu plans |
+| [git-cascade](https://github.com/eukarya-inc/git-cascade) | Hierarchical compliance checker for GitHub Organizations. |
 
 
 ## Adding New Formulas
