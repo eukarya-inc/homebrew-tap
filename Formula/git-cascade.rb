@@ -1,28 +1,28 @@
 class GitCascade < Formula
   desc "Scan GitHub organization repositories for compliance against YAML-defined rules"
   homepage "https://github.com/eukarya-inc/git-cascade"
-  version "0.5.3"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.5.3/git-cascade-v0.5.3-darwin-amd64.tar.gz"
-      sha256 "bb5daf36c7e94d54c8fc07036f86060c5c4a321cdbfff8a090fb12a8f6e238d9"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.6.0/git-cascade-v0.6.0-darwin-amd64.tar.gz"
+      sha256 "0e6b24c9f864e2f41f59068b0131617ca5484a2828bbeb05b50e98bdda06bdcc"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.5.3/git-cascade-v0.5.3-darwin-arm64.tar.gz"
-      sha256 "13e5e05c261de1c18fcbb45d19c8c170c92d12e57b07ab6bd46d00d00d491261"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.6.0/git-cascade-v0.6.0-darwin-arm64.tar.gz"
+      sha256 "bd83460b261a35fef2b2297766f768fe8bf165a8b1b247325c2c37ac2f96a71b"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.5.3/git-cascade-v0.5.3-linux-amd64.tar.gz"
-      sha256 "bdba4e14c9bdeffd7d4716ff53555b4a694352e687f7e29e57631780ef85fbb2"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.6.0/git-cascade-v0.6.0-linux-amd64.tar.gz"
+      sha256 "f00bc6a0aeced4110bd6250e0c4c6841a9dda7b882bed2914288139d99ceaa15"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.5.3/git-cascade-v0.5.3-linux-arm64.tar.gz"
-      sha256 "a5ed640619ec5ca0533b0c02ec55dbcab2d89b26c8bffc30b6a1cc071360010d"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.6.0/git-cascade-v0.6.0-linux-arm64.tar.gz"
+      sha256 "fbe1f00d403cd340084fe3cd0b899fea3d2374d73299ab2c35c838f97726bd83"
     end
   end
 
