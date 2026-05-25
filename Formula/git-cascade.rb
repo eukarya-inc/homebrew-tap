@@ -1,28 +1,28 @@
 class GitCascade < Formula
   desc "Scan GitHub organization repositories for compliance against YAML-defined rules"
   homepage "https://github.com/eukarya-inc/git-cascade"
-  version "0.11.2"
+  version "0.11.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.2/git-cascade-v0.11.2-darwin-amd64.tar.gz"
-      sha256 "453608b43c047778dd37a565c6ef26d6d7476c89fd7e3c758dda4d2e0ad8b7c1"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.3/git-cascade-v0.11.3-darwin-amd64.tar.gz"
+      sha256 "6c04e8a70ae692f639ff64fe4b99735a96ed7f1af76d9e701639c96bad114e02"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.2/git-cascade-v0.11.2-darwin-arm64.tar.gz"
-      sha256 "47f1c6891d1732438b50fc54de3869ab266ade512d6afe92e9e7900c83fa0e7b"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.3/git-cascade-v0.11.3-darwin-arm64.tar.gz"
+      sha256 "be22715179b5476370fac840f14a8e411a1ae866464562b406fea18f71e8dfe9"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.2/git-cascade-v0.11.2-linux-amd64.tar.gz"
-      sha256 "47a47d44dea94b71bab7d6270f1870d796b5b53cdf06802b4cf77b0dc1d69fb4"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.3/git-cascade-v0.11.3-linux-amd64.tar.gz"
+      sha256 "d35e0aac8be24c144efe18378a9cf97564a3014c1bcbac5db4db4430a1e0c66d"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.2/git-cascade-v0.11.2-linux-arm64.tar.gz"
-      sha256 "bcb1a0f03c4a2c5e91e3ce2a10192cbdd6849f4b2ab58b2eb41d9a2bf5c97f06"
+      url "https://github.com/eukarya-inc/git-cascade/releases/download/v0.11.3/git-cascade-v0.11.3-linux-arm64.tar.gz"
+      sha256 "8997d539e37a50b70fe3a51d93d29d38a779f4b540a5f5e1dfd88fa96ff1998e"
     end
   end
 
