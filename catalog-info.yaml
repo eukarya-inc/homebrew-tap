@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: homebrew-tap
+  namespace: eukarya-inc
+  description: Homebrew TAP for eukarya-inc
+  annotations:
+    github.com/project-slug: eukarya-inc/homebrew-tap
+  links:
+  - url: https://github.com/eukarya-inc/homebrew-tap
+    title: GitHub
+    icon: github
+  tags:
+  - ruby
+spec:
+  type: website
+  lifecycle: production
+  owner: eukarya-inc/sre
