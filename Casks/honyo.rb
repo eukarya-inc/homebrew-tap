@@ -11,7 +11,7 @@ cask "honyo" do
   end
 
   name "Honyo"
-  desc "AI-powered instant translation with double Cmd+C"
+  desc "AI-powered instant translation with double Ctrl/Cmd+C"
   homepage "https://github.com/eukarya-inc/honyo"
 
   auto_updates true

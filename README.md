@@ -36,7 +36,7 @@ macOS desktop apps, distributed as Homebrew casks.
 
 | Cask | Description |
 |------|-------------|
-| [honyo](https://github.com/eukarya-inc/honyo) | AI-powered instant translation with double Cmd+C |
+| [honyo](https://github.com/eukarya-inc/honyo) | AI-powered instant translation with double Ctrl/Cmd+C |
 
 Install:
 
