@@ -30,6 +30,23 @@ brew update && brew upgrade
 | [git-cascade](https://github.com/eukarya-inc/git-cascade) | Hierarchical compliance checker for GitHub Organizations. |
 
 
+## Available Casks
+
+macOS desktop apps, distributed as Homebrew casks.
+
+| Cask | Description |
+|------|-------------|
+| [honyo](https://github.com/eukarya-inc/honyo) | AI-powered instant translation with double Ctrl/Cmd+C |
+
+Install:
+
+```sh
+brew install --cask --no-quarantine eukarya-inc/tap/honyo
+```
+
+`--no-quarantine` is required because Honyo is not yet notarized, so macOS Gatekeeper would otherwise block it from launching.
+
+
 ## Adding New Formulas
 
 To distribute a new tool via this tap:
