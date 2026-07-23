@@ -41,10 +41,11 @@ macOS desktop apps, distributed as Homebrew casks.
 Install:
 
 ```sh
-brew install --cask --no-quarantine eukarya-inc/tap/honyo
+brew install --cask eukarya-inc/tap/honyo
+xattr -dr com.apple.quarantine /Applications/Honyo.app
 ```
 
-`--no-quarantine` is required because Honyo is not yet notarized, so macOS Gatekeeper would otherwise block it from launching.
+The `xattr` step is required because Honyo is not yet notarized — without it, macOS Gatekeeper blocks the app from launching. (The former `--no-quarantine` install flag was removed in recent Homebrew versions.)
 
 
 ## Adding New Formulas
